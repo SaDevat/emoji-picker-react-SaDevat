@@ -1,13 +1,13 @@
 import { EmojiStyle } from '../types/exposedTypes';
 
 const CDN_URL_APPLE =
-  'https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/';
+  'https://emojidatasadevat.netlify.app/img-apple-64/';
 const CDN_URL_FACEBOOK =
-  'https://cdn.jsdelivr.net/npm/emoji-datasource-facebook/img/facebook/64/';
+  'https://emojidatasadevat.netlify.app/img-facebook-64/';
 const CDN_URL_TWITTER =
-  'https://cdn.jsdelivr.net/npm/emoji-datasource-twitter/img/twitter/64/';
+  'https://emojidatasadevat.netlify.app/img-twitter-64/';
 const CDN_URL_GOOGLE =
-  'https://cdn.jsdelivr.net/npm/emoji-datasource-google/img/google/64/';
+  'https://emojidatasadevat.netlify.app/img-google-64/';
 
 export function cdnUrl(emojiStyle: EmojiStyle): string {
   switch (emojiStyle) {
